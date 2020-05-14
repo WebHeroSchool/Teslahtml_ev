@@ -4,7 +4,7 @@
         <title>Tesla</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="fonts.css">
-		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div class="header">
@@ -13,17 +13,17 @@
                     <img src="img/Tesla-Wordmark-Red.png" alt="TESLA">
                 </div>
                 <nav class="header__mainmenu">
-                    <a href="#" class="mainmenu__item_active">Model S</a>
+                    <a href="#" class="mainmenu__item  active">Model S</a>
                     <a href="#" class="mainmenu__item">Model X</a>
-                    <a href="#" class="mailmenu__item">Model 3</a>
+                    <a href="#" class="mainmenu__item">Model 3</a>
                     <a href="#" class="mainmenu__item">Roadster</a>
                     <a href="#" class="mainmenu__item">Energy</a>
                 </nav>
                 <div class="header__actionmenu">
                     <a href="#" class="actionmenu__link">Магазин</a>
                     <a href="#" class="actionmenu__link">Войти</a>
-                    <button class="actionmenu__button">
-                        <img src="img/menu.png" alt="Меню">
+                    <button class="actionmenu__button" type="button">
+                        <img src="img/Vector.svg" alt="Меню">
                     </button>
                 </div>
             </div>
@@ -31,35 +31,45 @@
         <div class="page">
             <h1 class="page__title">Model S</h1>
             <h3 class="page__subtitle">Добро пожаловать в будущее!</h3>
-            <img class="page__image" src="img/tesla-png-tesla-png-hd-1636.png" alt="Tesla Model-S">
+            <div class="page__image-wrap">
+                <img class="page__image" src="img/tesla-png-tesla-png-hd-1636.png" alt="Tesla Model-S">
+            </div>
             <div class="page__items">
-                <div class="itemspeed">
-                    <img class="itemspeed__icon" src="img/Vector.png" alt="Спидометр">
-                    <div class="itemspeed__info">
-                        <div class="itemspeed__value"><span>2,7</span>сек</div>
+                <div class="page__items1">
+                    <div class="itemspeed">
+                        <img class="itemspeed__icon" src="img/Speed.png" alt="Спидометр">
+                        <div class="itemspeed__info">
+                            <div class="itemspeed__title">
+                                <div class="itemspeed__value">
+                                    <b>2,7</b>сек</div>
+                            </div>
                             <div class="itemspeed__descr">0-100 км / час</div>
+                        </div>
                     </div>
-                </div>
-                <div class="itemroad">
-                    <img class="itemroad__icon" src="img/Vector (Stroke).png" alt="Запас хода">
-                    <div class="itemroad__info">
-                        <div class="itemroad__value"><span>632</span>км</div>
-                        <div class="descr">запас хода</div>
+                    <div class="itemroad">
+                        <img class="itemroad__icon" src="img/Road icon.png" alt="Запас хода">
+                        <div class="itemroad__info">
+                            <div class="itemroad__title">
+                            <div class="itemroad__value"><b>632</b>км</div>
+                        </div>
+                            <div class="itemroad__descr">запас хода</div>
+                        </div>
                     </div>
-                </div>
-                <div class="itemtest">
-                    <img src="img/steering-wheel.png" alt="Тест драйв">
-                    <div class="itemtest__info">тест драйв</div>
-                </div>
-                <div class="itembutton">
-                    <a href="#" class="itembutton_btn">заказать</a>
-                </div>
-                <div class="page__arrow">
+                 </div>
+                 <div class="page__item2">
+                    <div class="itemtest">
+                        <a class="itemtest__info" href="#">
+                        <img src="img/steering-wheel.png" alt="Тест драйв">
+                        тест драйв </a>
+                    <button class="itembutton" type="button">Заказать</button>
+                    </div>
+                 </div>
+             </div>
+                    <div class="page__arrow">
                     <a class="arrow-link" href="#">
                         <img class="arrow-image" src="img/Vector (1).png" alt="Далее">
                     </a>
-                </div>
-            </div>
+                    </div>
         </div>
         <section class="basicpage">
             <div class="basicpage__wrap">
@@ -231,3 +241,5 @@
         </footer>
     </body>
 </html>
+
+
