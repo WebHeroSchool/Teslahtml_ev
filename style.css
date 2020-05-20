@@ -22,7 +22,6 @@ a {
 
 button {
   border: none;
-
   background: transparent;
   cursor: pointer;
   padding: 0;
@@ -30,8 +29,16 @@ button {
   font-family: inherit;
 }
 
-ul, li, h1, h2, h3, h4, h5, h6, p, blockquote {
-
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
   margin: 0;
   padding: 0;
 }
@@ -86,7 +93,7 @@ body {
   background: #e51937;
   border-radius: 0 0 25px 25px;
   opacity: 0;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .mainmenu__item:hover {
@@ -113,7 +120,7 @@ body {
   margin-right: 45px;
 }
 
-.mainmenu__item act {
+.mainmenu__item  active {
   color: #e51937;
 }
 
@@ -131,9 +138,9 @@ body {
   height: 2px;
   width: 100%;
   background: #e51937;
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 0 0 25px 25px;
   opacity: 0;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .actionmenu__link:hover {
@@ -309,8 +316,7 @@ body {
   line-height: 22px;
   text-transform: uppercase;
   margin-right: 40px;
-  transition: color 0.2s, opacity .2s linear;
-
+  transition: color 0.2s, opacity 0.2s linear;
 }
 
 .itemtest__info img {
@@ -390,3 +396,5 @@ body {
     justify-content: center;
   }
 }
+
+
