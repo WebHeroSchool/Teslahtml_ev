@@ -235,6 +235,7 @@ body {
 .page__items {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: center;
   margin-bottom: 35px;
 }
@@ -380,12 +381,9 @@ body {
 }
 
 @media (max-width: 860px) {
-  itemtest {
-    width: 100%;
-    justify-content: center;
-  }
-
   .page__items {
+    max-width: 100%;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -397,6 +395,11 @@ body {
   }
 
   .page__items2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .itemtest {
     width: 100%;
     justify-content: center;
   }
