@@ -45,7 +45,7 @@ blockquote {
 
 body {
   position: relative;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   max-width: 1440px;
   margin: 0 auto;
   font-weight: normal;
@@ -1020,20 +1020,19 @@ body {
   }
 }
 
-.footer {
+.whs__logo {
   position: absolute;
   width: 100%;
-  bottom: 0;
   display: flex;
-  padding: 0 15px 15px 0;    
 }
 
 .footer__author {
   margin-left: auto;
+  padding-top: 50px;
 }
 
 @media (max-width: 1300px) {
-  .footer {
+  .whs__logo {
     display: none;
   }
 }
