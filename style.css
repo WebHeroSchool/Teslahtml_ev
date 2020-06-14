@@ -165,7 +165,7 @@ body {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 914px) {
   .header__mainmenu {
     display: none;
   }
@@ -420,6 +420,17 @@ body {
   .itemtest {
     width: 100%;
     justify-content: center;
+  }
+
+@media (max-width: 400px) {
+  .page__title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 340px) {
+  .page__title {
+    font-size: 70px;
   }
 }
 
