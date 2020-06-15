@@ -120,7 +120,7 @@ body {
   margin-right: 45px;
 }
 
-.mainmenu__item  active {
+.mainmenu__item active {
   color: #e51937;
 }
 
@@ -341,7 +341,7 @@ body {
   color: #e51937;
 }
 
-.itemtest__info:hover:before {
+.itemtest__info:hover::before {
   background-image: url(img/steering-wheel__red.svg);
   background-repeat: no-repeat;
 }
@@ -525,7 +525,7 @@ body {
 .item__title b {
   font-weight: 600;
   font-size: 35px;
-  }
+}
 
 .item__subtitle {
   display: block;
@@ -560,11 +560,6 @@ body {
   transition: color .2s, opacity .2s linear;
 }
 
-.item__link {
-  margin-right: 5px;
-  transition: fill .2s linear;
-}
-
 .item__info .item__link::before {
   content: '';
   position: absolute;
@@ -575,7 +570,7 @@ body {
   height: 22px;
   transform: translateY(-50%);
   background-image: url('img/Group I.png');
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .item__link:hover {
@@ -788,7 +783,7 @@ body {
   top: 60%;
   right: 10px;
   max-width: 75%;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .carview__inner {
@@ -883,7 +878,6 @@ body {
     margin-left: auto;
   }
 }
-
 
 @media (max-width: 1140px) {
   .lastpage__aside .item__info {
@@ -1040,7 +1034,7 @@ body {
   }
 
   .lastpage::after {
-    top: 4%; 
+    top: 4%;
     font-size: 24%;
   }
 
