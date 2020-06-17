@@ -155,6 +155,10 @@ body {
   margin-right: 30px;
 }
 
+.actionmenu__button {
+  outline: none;
+}
+
 .actionmenu__button img {
   padding: 10px 0 0 30px;
 }
@@ -304,7 +308,7 @@ body {
   line-height: 15px;
 }
 
-.page__item2 {
+.page__order {
   display: flex;
   align-items: center;
 }
@@ -412,7 +416,7 @@ body {
     margin-bottom: 30px;
   }
 
-  .page__items2 {
+  .page__order {
     width: 100%;
     justify-content: center;
   }
@@ -484,13 +488,14 @@ body {
   max-width: 440px;
   background: #e51937;
   color: #fff;
-  padding: 50px 45px 40px 45px;
+  padding: 50px 68px 40px 56px;
 }
 
 .aside__title {
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 10px;
+  line-height: 37px;
 }
 
 .aside__descr {
@@ -549,17 +554,6 @@ body {
   margin-right: 22px;
 }
 
-.item__link {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 22px;
-  text-transform: uppercase;
-  margin-right: 40px;
-  transition: color .2s, opacity .2s linear;
-}
-
 .item__info .item__link::before {
   content: '';
   position: absolute;
@@ -571,6 +565,17 @@ body {
   transform: translateY(-50%);
   background-image: url('img/Group I.png');
   background-repeat: no-repeat;
+}
+
+.item__link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-right: 40px;
+  transition: color 0.2s, opacity 0.2s linear;
 }
 
 .item__link:hover {
@@ -617,7 +622,7 @@ body {
   }
 
   .aside__content {
-    width: 41%;
+    width: 50%;
   }
 
   .item__info {
@@ -651,6 +656,16 @@ body {
   }
 }
 
+@media (max-width: 420px) {
+  .aside__content {
+    text-align: left;
+  }
+
+  .asideinfo {
+    margin-bottom: 0;
+  }
+}
+
 @media (max-width: 375px) {
   .box {
     padding: 29px 29px 40px;
@@ -664,7 +679,7 @@ body {
     text-align: left;
   }
 
-  .aside__descr {
+  .asideinfo {
     margin-bottom: 0;
   }
 
@@ -689,10 +704,10 @@ body {
   position: absolute;
   z-index: -1;
   content: 'Model S';
-  top: 7%;
+  top: 22%;
   right: 0%;
   font-weight: 600;
-  font-size: 200px;
+  font-size: 180px;
   color: #e51937;
   opacity: 0.1;
 }
@@ -701,9 +716,14 @@ body {
   left: 0;
 }
 
+.aside__content {
+  text-align: left;
+}
+
 .asidetitle {
   font-weight: 600;
   font-size: 30px;
+  line-height: 37px;
   margin-bottom: 12px;
 }
 
@@ -834,7 +854,7 @@ body {
 
   .lastpage::after {
     right: 50%;
-    top: -1%;
+    top: 5%;
     transform: translateX(50%);
     width: 100%;
     text-align: center;
