@@ -116,7 +116,7 @@ body {
   margin-right: 45px;
 }
 
-.mainmenu__item active {
+.mainmenu__item actived {
   color: #e51937;
 }
 
@@ -538,6 +538,17 @@ body {
   margin-top: auto;
 }
 
+.item__link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-right: 40px;
+  transition: color 0.2s, opacity 0.2s linear;
+}
+
 .item__info .item__link {
   position: relative;
   text-transform: uppercase;
@@ -556,17 +567,6 @@ body {
   transform: translateY(-50%);
   background-image: url('img/Group I.png');
   background-repeat: no-repeat;
-}
-
-.item__link {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 22px;
-  text-transform: uppercase;
-  margin-right: 40px;
-  transition: color 0.2s, opacity 0.2s linear;
 }
 
 .item__link:hover {
