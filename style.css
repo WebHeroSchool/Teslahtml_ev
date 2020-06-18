@@ -116,10 +116,6 @@ body {
   margin-right: 45px;
 }
 
-.mainmenu__item actived {
-  color: #e51937;
-}
-
 .header__actionmenu {
   display: flex;
   align-items: center;
@@ -360,7 +356,7 @@ body {
   transition: color 0.2s, background 0.2s;
 }
 
-.itemtest .itembutton:hover {
+.itembutton:hover {
   background: #e51937;
   color: #fff;
 }
