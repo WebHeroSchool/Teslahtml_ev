@@ -344,7 +344,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.itembutton {
+.itembutton__white {
   min-width: 160px;
   font-weight: bold;
   font-size: 13px;
@@ -356,7 +356,7 @@ body {
   transition: color 0.2s, background 0.2s;
 }
 
-.itembutton:hover {
+.itembutton__white:hover {
   background: #e51937;
   color: #fff;
 }
@@ -573,6 +573,18 @@ body {
 .item__info .itembutton {
   color: #fff;
   border-color: #fff;
+}
+
+.itembutton {
+  min-width: 160px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px 40px;
+  transition: color 0.2s, background 0.2s;
 }
 
 .itembutton:hover {
