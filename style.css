@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -27,6 +22,7 @@ button {
   padding: 0;
   color: inherit;
   font-family: inherit;
+  overflow-x: hidden;
 }
 
 ul,
@@ -311,6 +307,8 @@ body {
 .page__order {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  min-width: 375px;
 }
 
 .itemtest {
@@ -404,8 +402,6 @@ body {
 
 @media (max-width: 860px) {
   .page__items {
-    max-width: 100%;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -417,11 +413,6 @@ body {
   }
 
   .page__order {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .itemtest {
     width: 100%;
     justify-content: center;
   }
