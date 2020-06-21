@@ -356,9 +356,18 @@
   .page__title {
     font-size: 80px;
   }
+
+  .itembutton__white {
+    min-width: 140px;
+  }
 }
 
 @media (max-width: 375px) {
+  .page__items {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .box {
     padding: 29px 29px 40px;
   }

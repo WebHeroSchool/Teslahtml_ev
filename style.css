@@ -280,6 +280,7 @@ body {
 }
 
 .itemtest {
+  display: flex;
   justify-content: space-between;
   margin-top: auto;
 }
@@ -299,7 +300,8 @@ body {
   content: '';
   position: absolute;
   display: block;
-  top: 50%;
+  top: 30%;
+  left: 0;
   width: 22px;
   height: 22px;
   transform: translateY(-50%);
