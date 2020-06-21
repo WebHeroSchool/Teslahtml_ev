@@ -357,6 +357,10 @@
     font-size: 80px;
   }
 
+  .itemtest .itemtest__info {
+    line-height: 18px;
+  }
+
   .itembutton__white {
     min-width: 140px;
   }
@@ -366,6 +370,24 @@
   .page__items {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .itemroad__icon {
+    width: 25px;
+  }
+
+  .itemspeed__icon {
+    width: 40px;
+  }
+
+  .itemspeed__value b {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .itemroad__value b {
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .box {
@@ -433,6 +455,11 @@
 @media (max-width: 340px) {
   .page__title {
     font-size: 70px;
+  }
+
+  .itemspeed__descr {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 

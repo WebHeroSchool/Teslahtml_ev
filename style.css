@@ -157,8 +157,7 @@ body {
 
 .page {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 60px 20px 40px 0;
 }
 
 .page__title {
