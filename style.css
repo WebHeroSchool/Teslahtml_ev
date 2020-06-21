@@ -1,0 +1,645 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  overflow-x: hidden;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.header {
+  font-weight: 600;
+  line-height: 18px;
+  padding: 25px 60px 0;
+  display: block;
+}
+
+.header_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.2s linear;
+}
+
+.header__logo:hover {
+  opacity: 0.5;
+}
+
+.mainmenuitem {
+  position: relative;
+  padding-bottom: 10px;
+  transition: color 0.2s linear;
+}
+
+.mainmenuitem::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #e51937;
+  border-radius: 0 0 25px 25px;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.mainmenuitem:hover {
+  color: #e51937;
+}
+
+.mainmenuitem:hover::after {
+  opacity: 1;
+}
+
+.item1 {
+  margin-right: 60px;
+}
+
+.item2 {
+  margin-right: 25px;
+}
+
+.item3 {
+  margin-right: 45px;
+}
+
+.item4 {
+  margin-right: 45px;
+}
+
+.header__actionmenu {
+  display: flex;
+  align-items: center;
+}
+
+.actionmenu__link::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #e51937;
+  border-radius: 0 0 25px 25px;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.actionmenu__link:hover {
+  color: #e51937;
+}
+
+.actionmenu__link:hover::after {
+  opacity: 1;
+}
+
+.header__actionmenu .actionmenu__link:nth-child(1) {
+  margin-right: 30px;
+}
+
+.actionmenu__button {
+  outline: none;
+}
+
+.actionmenu__button img {
+  padding: 10px 0 0 30px;
+}
+
+.page {
+  position: relative;
+  padding: 60px 20px 40px 0;
+}
+
+.page__title {
+  font-weight: 600;
+  font-size: 90px;
+  text-align: center;
+}
+
+.page__subtitle {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 18px;
+}
+
+.page__image-wrap {
+  position: relative;
+  max-width: 970px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.page__image-wrap::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 1199px;
+  height: 467px;
+  top: -145px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url('img/Tesla-Wordmark-Red  - фон.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page__image {
+  display: block;
+}
+
+.page__items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.page__items1 {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 105px;
+}
+
+.itemspeed {
+  display: flex;
+  align-items: center;
+}
+
+.itemspeed__icon {
+  margin-right: 10px;
+  padding-top: 10px;
+  width: 46px;
+}
+
+.itemspeed__value {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.itemspeed__value b {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.itemspeed__descr {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.itemroad {
+  display: flex;
+  align-items: center;
+}
+
+.itemroad__icon {
+  margin-right: 10px;
+  padding-top: 10px;
+  width: 31px;
+}
+
+.itemroad__value {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.itemroad__value b {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.itemroad__descr {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.page__order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 375px;
+}
+
+.itemtest {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.itemtest .itemtest__info {
+  position: relative;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-right: 40px;
+  padding-left: 30px;
+  transition: color 0.2s, linear;
+}
+
+.itemtest .itemtest__info::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 30%;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  transform: translateY(-50%);
+  background-image: url('img/steering-wheel.svg');
+  background-repeat: no-repeat;
+}
+
+.itemtest .itemtest__info:hover {
+  color: #e51937;
+}
+
+.itemtest__info:hover::before {
+  background-image: url(img/steering-wheel__red.svg);
+  background-repeat: no-repeat;
+}
+
+.itembutton__white {
+  min-width: 160px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #e51937;
+  text-transform: uppercase;
+  border: 2px solid #e51937;
+  padding: 10px 40px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.itembutton__white:hover {
+  background: #e51937;
+  color: #fff;
+}
+
+.page__arrow {
+  display: block;
+  max-width: 20px;
+  margin: 0 auto;
+  transition: opacity 0.2s linear;
+}
+
+.page__arrow:hover {
+  opacity: 0.5;
+}
+
+.basicpage {
+  position: relative;
+}
+
+.basicpage__wrap {
+  min-height: 900px;
+  background: url('img/2013-tesla-model-s-cockpit.png') no-repeat left bottom;
+}
+
+.basicpage__title {
+  font-weight: 600px;
+  font-size: 70px;
+  color: #e51937;
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+.box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  max-width: 440px;
+  background: #e51937;
+  color: #fff;
+  padding: 50px 68px 40px 56px;
+}
+
+.aside__title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: 37px;
+}
+
+.aside__descr {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 50px;
+}
+
+.aside__items {
+  margin-bottom: 35px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.basicpage .item {
+  margin-bottom: 35px;
+}
+
+.basicpage .item__icon {
+  margin-right: 20px;
+}
+
+.item__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.item__title b {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.item__subtitle {
+  display: block;
+  font-size: 12px;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+}
+
+.item__info {
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.item__link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-right: 40px;
+  transition: color 0.2s, opacity 0.2s linear;
+}
+
+.item__info .item__link {
+  position: relative;
+  text-transform: uppercase;
+  padding-left: 30px;
+  margin-right: 22px;
+}
+
+.item__info .item__link::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  transform: translateY(-50%);
+  background-image: url('img/Group I.png');
+  background-repeat: no-repeat;
+}
+
+.item__link:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.itembutton {
+  min-width: 160px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px 40px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.itembutton:hover {
+  color: #e51937;
+  background: #fff;
+}
+
+.lastpage {
+  position: relative;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.lastpage::after {
+  position: absolute;
+  z-index: -1;
+  content: 'Model S';
+  top: 22%;
+  right: 0%;
+  font-weight: 600;
+  font-size: 180px;
+  color: #e51937;
+  opacity: 0.1;
+}
+
+.lastpage__aside {
+  left: 0;
+}
+
+.aside__content {
+  text-align: left;
+}
+
+.asidetitle {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 12px;
+}
+
+.asideinfo {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 70px;
+}
+
+.ratinglist {
+  margin-bottom: 100px;
+}
+
+.ratingtitle {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  margin-top: 30px;
+}
+
+.rating__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rating__item:last-child {
+  margin-bottom: 0;
+}
+
+.rating__name {
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.rating__name span {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.security {
+  display: flex;
+  align-items: center;
+}
+
+.security5star {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.security5star .rating5star__image {
+  margin-right: 20px;
+}
+
+.rating5satr__title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.rating5star__subtitle {
+  display: block;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.carview {
+  position: absolute;
+  top: 60%;
+  right: 10px;
+  max-width: 75%;
+  transform: translateY(-50%);
+}
+
+.carview__inner {
+  position: relative;
+  z-index: 99;
+}
+
+.carview__item {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.carview__title {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 15px;
+}
+
+.carview__item:nth-child(2) {
+  left: 25.2%;
+  top: 0%;
+}
+
+.carview__item:nth-child(3) {
+  left: 51.8%;
+  top: -8%;
+}
+
+.carview__item:nth-child(4) {
+  align-items: flex-end;
+  left: 56.8%;
+  top: auto;
+  bottom: 11%;
+}
+
+.whs__logo {
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+
+.footer__author {
+  margin-left: auto;
+  padding-top: 50px;
+}

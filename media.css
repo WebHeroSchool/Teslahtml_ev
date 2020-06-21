@@ -1,0 +1,479 @@
+@media (min-width: 1600px) {
+  .box {
+    min-width: 35%;
+  }
+}
+
+@media (min-width: 1420px) {
+  .carview {
+    right: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .whs__logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1220px) {
+  .page__image-wrap::after {
+    width: 900px;
+    top: -100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .lastpage {
+    padding-top: 145px;
+  }
+
+  .lastpage::after {
+    right: 50%;
+    top: 5%;
+    transform: translateX(50%);
+    width: 100%;
+    text-align: center;
+  }
+
+  .lastpage__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lastpage__aside {
+    position: static;
+    max-width: 100%;
+    order: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .carview {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ratinglist {
+    max-width: 300px;
+    margin-right: 70px;
+  }
+
+  .security5star {
+    margin-right: 0;
+    margin-left: 0;
+    width: 60%;
+  }
+
+  .lastpage__aside .item__info {
+    margin-top: 0;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1140px) {
+  .lastpage__aside .item__info {
+    width: 100%;
+  }
+
+  .security5star {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .header {
+    padding: 25px 30px 0;
+  }
+
+  .page__items {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .carview__title {
+    font-size: 15px;
+  }
+
+  .carview__item:nth-child(2) img {
+    height: 27vw;
+  }
+
+  .carview__item:nth-child(3) img {
+    height: 12vw;
+  }
+
+  .carview__item:nth-child(4) img {
+    height: 11vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .header__mainmenu {
+    display: none;
+  }
+
+  .page__image-wrap::after {
+    width: 695px;
+    top: -75px;
+  }
+
+  .page__subtitle {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 860px) {
+  .page__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page__items1 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .page__order {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .basicpage__title {
+    font-size: 50px;
+    text-align: right;
+    margin-left: 0;
+    margin-right: 60px;
+  }
+
+  .box {
+    position: static;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .basicpage__wrap {
+    min-height: 500px;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .aside__content {
+    width: 50%;
+  }
+
+  .item__info {
+    margin: 40px auto 0 auto;
+  }
+
+  .item__info .item__link {
+    margin-right: 50px;
+  }
+
+  .item__info .item__link,
+  .item__info .item__btn {
+    font-size: 16px;
+  }
+
+  .lastpage__wrap {
+    min-height: 500px;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .security5star {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .carview {
+    padding-bottom: 40px;
+  }
+
+  .lastpage::after {
+    top: 6%;
+    font-size: 148px;
+  }
+
+  .ratinglist {
+    margin-right: 0;
+  }
+
+  .carview__title {
+    max-width: 165px;
+  }
+
+  .lastpage__aside .item__info {
+    width: auto;
+  }
+
+  .carview__item:nth-child(2) {
+    left: 25%;
+  }
+
+  .carview__item:nth-child(3) {
+    left: 51.5%;
+  }
+}
+
+@media (max-width: 670px) {
+  .basicpage__wrap {
+    min-height: 430px;
+  }
+
+  .aside__items {
+    display: none;
+  }
+
+  .aside__content {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item__info {
+    display: none;
+  }
+
+  .ratinglist {
+    display: none;
+  }
+
+  .security {
+    display: none;
+  }
+
+  .lastpage {
+    min-height: auto;
+  }
+
+  .lastpage::after {
+    font-size: 100px;
+  }
+
+  .lastpage .aside__content {
+    width: auto;
+    max-width: 400px;
+  }
+
+  .carview__title {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .carview__item:nth-child(2) {
+    left: 24.8%;
+  }
+
+  .carview__item:nth-child(3) {
+    left: 51.3%;
+  }
+
+  .carview__item:nth-child(4) {
+    left: 56.6%;
+    bottom: 11.8%;
+  }
+}
+
+@media (max-width: 640px) {
+  .page__image-wrap::after {
+    width: 600px;
+    top: -75px;
+  }
+}
+
+@media (max-width: 570px) {
+  .basicpage__wrap {
+    min-height: 370px;
+  }
+}
+
+@media (max-width: 550px) {
+  .page__image-wrap::after {
+    width: 500px;
+    top: -60px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header {
+    padding-left: 10px;
+  }
+
+  .header__actionmenu .actionmenu__link {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .carview__title {
+    font-size: 7px;
+    line-height: 6px;
+  }
+}
+
+@media (max-width: 450px) {
+  .page__image-wrap::after {
+    width: 400px;
+    top: -55px;
+  }
+}
+
+@media (max-width: 420px) {
+  .basicpage__wrap {
+    min-height: 300px;
+  }
+
+  .aside__content {
+    text-align: left;
+  }
+
+  .asideinfo {
+    margin-bottom: 0;
+  }
+
+  .lastpage::after {
+    /* top: 3%;  */
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding-top: 0;
+  }
+
+  .page__title {
+    font-size: 80px;
+  }
+
+  .itemtest .itemtest__info {
+    line-height: 18px;
+  }
+
+  .itembutton__white {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 375px) {
+  .page__items {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .itemroad__icon {
+    width: 25px;
+  }
+
+  .itemspeed__icon {
+    width: 40px;
+  }
+
+  .itemspeed__value b {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .itemroad__value b {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .box {
+    padding: 29px 29px 40px;
+  }
+
+  .basicpage__title .aside__items .item__info {
+    display: none;
+  }
+
+  .aside__content {
+    text-align: left;
+  }
+
+  .asideinfo {
+    margin-bottom: 0;
+  }
+
+  .basicpage__title {
+    display: none;
+  }
+
+  .basicpage__wrap {
+    min-height: 247px;
+    background-size: contain;
+  }
+
+  .lastpage {
+    padding-top: 75px;
+  }
+
+  .carview__item:nth-child(2) {
+    left: 23.9%;
+  }
+
+  .carview__item:nth-child(3) {
+    left: 50.3%;
+  }
+
+  .carview__item:nth-child(4) {
+    left: 55.6%;
+    bottom: 12.8%;
+  }
+
+  .lastpage::after {
+    top: 4%;
+    font-size: 24%;
+  }
+
+  .ratinglist {
+    display: none;
+  }
+
+  .security {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .basicpage__wrap {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 340px) {
+  .page__title {
+    font-size: 70px;
+  }
+
+  .itemspeed__descr {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__title {
+    font-size: 60px;
+  }
+
+  .page__image-wrap::after {
+    width: 300px;
+    top: -40px;
+  }
+
+  .itemtest .itemtest__info {
+    margin-right: 20px;
+  }
+}
