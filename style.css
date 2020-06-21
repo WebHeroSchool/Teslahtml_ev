@@ -451,6 +451,7 @@ body {
   .page__title {
     font-size: 60px;
   }
+
   .page__image-wrap::after {
     width: 300px;
     top: -40px;
@@ -712,7 +713,7 @@ body {
 }
 
 @media (max-width: 350px) {
-    .basicpage__wrap {
+  .basicpage__wrap {
     min-height: 210px;
   }
 }
