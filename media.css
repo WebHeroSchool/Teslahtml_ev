@@ -189,14 +189,6 @@
     background-size: cover;
   }
 
-  .box {
-    position: static;
-    max-width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
   .security5star {
     display: none;
   }
