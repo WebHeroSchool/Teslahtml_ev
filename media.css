@@ -472,4 +472,8 @@
     width: 300px;
     top: -40px;
   }
+
+  .itemtest .itemtest__info {
+    margin-right: 20px;
+  }
 }
